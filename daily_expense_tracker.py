@@ -42,7 +42,8 @@ with st.sidebar:
         load_exp()
 
 
-st.title('Daily Expense Tracker')
+st.header('Daily Expense Tracker')
+st.subheader('Add expenses from sidebar')
 st.write(st.session_state.expenses) 
 
   
